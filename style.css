@@ -253,13 +253,19 @@ ul {
     font-family: 'Merriweather', serif;
     font-weight: bold;
     align-items: flex-end;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
     cursor: pointer;
     font-size: 10px;
 }
 
-
+.my__name{
+    display: flex;
+    margin-top: 3px;
+    font-size:9px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#290149;
+}
 
 
 @media (min-width: 768px){
@@ -378,17 +384,17 @@ ul {
     font-weight: bold;
     align-items: flex-end;
     margin-left: 800px;
-    margin-top: 80px;
+    margin-top: 40px;
     cursor: pointer;
   }
 
-  p{
-       margin-top: 200px;
-       display: flex;
-       width: 100%;
-       
+  .my__name{
+      margin-top: 10px;
+    display: flex;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #290149;
   }
-
 }
 
 

@@ -374,13 +374,23 @@ ul {
 
  ul {  
     font-family: 'Merriweather', serif;
+    font-size: 20px;
     font-weight: bold;
     align-items: flex-end;
     margin-left: 800px;
     margin-top: 80px;
     cursor: pointer;
   }
+
+  p{
+       margin-top: 200px;
+       display: flex;
+       width: 100%;
+       
+  }
+
 }
+
 
    
 
